@@ -17,9 +17,9 @@ let atletas = [
  }
 ];
 function print(atleta){
-	newnotas =atleta.notas.sort()
+	let newnotas =atleta.notas.sort()
 	let notasComputadas = newnotas.slice(1,4)
-	soma=0
+	let soma=0
 	notasComputadas.forEach(function(n){
 		soma+=n
 	})
